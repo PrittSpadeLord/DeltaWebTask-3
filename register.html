@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(53, 53, 53);
+                color: rgb(255, 255, 255);
+            }
+      
+            .topnav {
+                overflow: hidden;
+                background-color: rgb(88, 18, 18);
+            }
+      
+            .topnav a {
+                float: left;
+                color: #ffffff;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            
+            .topnav a:hover {
+                background-color: rgb(223, 101, 101);
+                color: black;
+            }
+            
+            .topnav a.active {
+                background-color: #FF0000;
+                color: white;
+            }
+        </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/register" class="active">Register</a>
+        <a href="/login">Login</a>
+    </div>
+    <div align="center"><h1>Create an account</h1></div>
+    <div style="margin-left: 33%; margin-right: 33%;">
+        <form action="/submitregister" method="POST">
+            Your Username: <input type="text" name="username"><br>
+            Your Password: &nbsp;<input type="password" name="pass"><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "list": [
+        {
+            "username": "Superadmin",
+            "pass": "almighty",
+            "schedules": [
+                {
+                    "date": "01/01/21",
+                    "plan": "Take over the world!"
+                }
+            ]
+        }
+    ]
+}
